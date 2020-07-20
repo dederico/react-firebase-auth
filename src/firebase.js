@@ -1,17 +1,17 @@
-import firebase from 'firebase'
+import firebase from "firebase";
 
 const config = {
-    apiKey: "AIzaSyDid7wdYVVIQ403LURGpoYv_TPRyZ4RtiY",
-    authDomain: "fir-project-2c749.firebaseapp.com",
-    databaseURL: "https://fir-project-2c749.firebaseio.com",
-    projectId: "fir-project-2c749",
-    storageBucket: "fir-project-2c749.appspot.com",
-    messagingSenderId: "326945188628",
-    appId: "1:326945188628:web:aa5531e0a440c6e9a07001"
-  };
+  apiKey: "AIzaSyCczoOVpChAAbD4YKVt_XiwkmuhV_5aaE8",
+  authDomain: "san-pedro-2021.firebaseapp.com",
+  databaseURL: "https://san-pedro-2021.firebaseio.com",
+  projectId: "san-pedro-2021",
+  storageBucket: "san-pedro-2021.appspot.com",
+  messagingSenderId: "527050551435",
+  appId: "1:527050551435:web:790633385d2f96c69a248e",
+};
 
-  firebase.initializeApp(config)
-  
-  export const provider = new firebase.auth.GoogleAuthProvider();
-  export const auth = firebase.auth();
-  export default firebase;
+firebase.initializeApp(config);
+
+export const provider = new firebase.auth.GoogleAuthProvider();
+export const auth = firebase.auth();
+export default firebase;

@@ -1,0 +1,10 @@
+a.HomeLink {
+  position: absolute;
+  top: 13px;
+  left: 1034px;
+  width: 200px;
+}
+
+ul.navbar-nav.mr-auto {
+  margin-left: 20px;
+}
